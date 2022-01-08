@@ -16,6 +16,7 @@ let jobss:[String] = ["Data Scientist",
                       "Sales Engineer"]
 Introduction()
 
+
 // INTRODUCTION FUNC
 func Introduction()
 {
@@ -51,6 +52,8 @@ func Main ()
            myCV.createCV(back: 0)
         case "4":
            myCV.printCV(back: 0)
+        case "5":
+            print("See you soon \(myCV.firstName)")
         default:
             print("Invalid input")
             Introduction()
@@ -317,5 +320,4 @@ class cv
         }
     }
 }
-
 
